@@ -1,8 +1,11 @@
+import Banner from "./Banner/Banner";
+// import Features from "../Features/Features";
+// import Projects from "../Projects/Projects";
 
-const Home = () => {
+const Home = () => { 
     return (
-        <div>
-            <h3>This is home</h3>
+        <div className="max-w-[1200px] mx-auto">
+           <Banner></Banner> 
         </div>
     );
 };

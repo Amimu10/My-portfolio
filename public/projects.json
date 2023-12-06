@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Inventory Management",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXZZ7t9TeEGI9tl81bV_powXhwmwF98k6rfQ&usqp=CAU", 
+      "date": "2023-01-01"
+    },
+    {
+      "id": 2,
+      "title": "E-commerce Website",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+      "image": "path/to/projectTwoImage.jpg",
+      "date": "2023-02-15"
+    },
+    {
+      "id": 3,
+      "title": "Chatting App",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+      "image": "path/to/projectThreeImage.jpg",
+      "date": "2023-03-30"
+    },
+    {
+      "id": 4,
+      "title": "Portfolio Website",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+      "image": "path/to/projectFourImage.jpg",
+      "date": "2023-04-12"
+    },
+    {
+      "id": 5,
+      "title": "Mobile App Development",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+      "image": "path/to/projectFiveImage.jpg",
+      "date": "2023-05-25"
+    },
+    {
+      "id": 6,
+      "title": "Data Visualization Dashboard",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+      "image": "path/to/projectSixImage.jpg",
+      "date": "2023-06-08"
+    }
+  ]
+  
