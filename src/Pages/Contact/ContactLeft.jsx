@@ -1,13 +1,11 @@
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import Lottie from 'lottie-react';
-import animationData from "../../assets/contactanimation.json";
+import animationData from "../../../public/contactAnimation.json";
 
-const ContactLeft = () => {
-  return (
-    <div className="w-full">
-    <div className="w-full">
-    <Lottie animationData={animationData} />
-    </div>
+const ContactLeft = () => { 
+  return (  
+    <div className="">  
+     <Lottie animationData={animationData} />  
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Amimul Ahsan</h3>
         <p className="text-lg font-normal text-gray-400"> 
@@ -18,10 +16,10 @@ const ContactLeft = () => {
           ipsam autem cumque, accusantium dicta odio.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+8801935633612</span>
+          Phone: <span className="text-lightText">+8801935633612</span> 
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span> 
         </p>
       </div>
       <div className="flex flex-col gap-4">

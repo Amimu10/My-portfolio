@@ -6,7 +6,9 @@ import About from "../../Pages/About/About";
 import { MdDashboard } from "react-icons/md";
 import Projects from "../../Pages/Projects/Projects";
 import Contact from "../../Pages/Contact/Contact";
-
+import { FaHome, FaUser } from "react-icons/fa";
+import { TbHeartRateMonitor } from "react-icons/tb";
+import { RiMessengerLine } from "react-icons/ri";
 const Navbar = () => {
 const location = useLocation();  
 console.log(location); 
@@ -50,7 +52,7 @@ console.log(location);
                 
                   to="/"          
                 >
-                  Home
+                 <FaHome></FaHome> Home
                 </NavLink>
               </li>
               <li>
@@ -58,7 +60,7 @@ console.log(location);
                 
                   to="/about" 
                 >
-                  About
+                  <FaUser></FaUser> About
                 </NavLink>
               </li>
               <li>
@@ -66,7 +68,7 @@ console.log(location);
                 
                   to="/projects" 
                 >
-                  Projects
+                <TbHeartRateMonitor /> Projects
                 </NavLink>
               </li>
               <li>
@@ -74,7 +76,7 @@ console.log(location);
                 
                   to="/contact" 
                 >
-                  Contact
+                 <RiMessengerLine /> Contact
                 </NavLink>
               </li>
             </ul>
