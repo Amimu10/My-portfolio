@@ -13,7 +13,8 @@ export default {
         'montserrat': ['Montserrat', 'sans-serif'] 
       },
       colors: {
-        bodyColor: "#212428",
+        // bodyColor: "#212428",
+        bodyColor: "#402570",
         lightText: "#c4cfde",
         boxBg : "linear-gradient(145deg, #1e2024, #23272b)",
         designColor: "#ff014f",

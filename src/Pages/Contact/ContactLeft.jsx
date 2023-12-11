@@ -9,7 +9,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Amimul Ahsan</h3>
         <p className="text-lg font-normal text-gray-400"> 
-          MERN Stack Developer 
+          Frontend Developer  
         </p>
         <p className="text-base text-gray-400 tracking-wide">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis 
@@ -19,8 +19,8 @@ const ContactLeft = () => {
           Phone: <span className="text-lightText">+8801935633612</span> 
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span> 
-        </p>
+          Email: <span className="text-lightText">amimul211@gmail.com</span>   
+        </p> 
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>

@@ -29,13 +29,12 @@ console.log(location);
 
   };
   return (
-    <div>
-      <div>
-        <div className="drawer lg:drawer-open">
+
+        <div className="drawer lg:drawer-open relative">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col md:ml-3 lg:ml-5 my-6"> 
             <label htmlFor="my-drawer-2" className=" drawer-button lg:hidden">
-            <MdDashboard className="text-4xl hover:scale-125 duration-700 text-pink-700 shadow-xl"></MdDashboard>
+            <MdDashboard className="relative mt-5 inset-0 text-4xl hover:scale-125 duration-700 text-pink-700 shadow-xl"></MdDashboard> 
             </label> 
             {renderPage()}
           </div>
@@ -45,14 +44,14 @@ console.log(location);
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu p-4 min-h-screen text-white bg-[#212428] focus:text-pink-700 font-inter text-base">
+            <ul className="menu p-4 h-100vh text-[#E15549] hover:text-pink-700 lg:bg-inherit md:bg-[#F5EACC] font-inter text-base"> 
              
-              <li className="focus:text-pink-700">
+              <li className="">
                 <NavLink 
                 
                   to="/"          
                 >
-                 <FaHome></FaHome> Home
+                 <FaHome></FaHome> 
                 </NavLink>
               </li>
               <li>
@@ -60,7 +59,7 @@ console.log(location);
                 
                   to="/about" 
                 >
-                  <FaUser></FaUser> About
+                  <FaUser></FaUser>
                 </NavLink>
               </li>
               <li>
@@ -68,7 +67,7 @@ console.log(location);
                 
                   to="/projects" 
                 >
-                <TbHeartRateMonitor /> Projects
+                <TbHeartRateMonitor />
                 </NavLink>
               </li>
               <li>
@@ -76,14 +75,12 @@ console.log(location);
                 
                   to="/contact" 
                 >
-                 <RiMessengerLine /> Contact
+                 <RiMessengerLine />
                 </NavLink>
               </li>
             </ul>
           </div>
         </div>
-      </div>
-    </div>
   );
 };
 
