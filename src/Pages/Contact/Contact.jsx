@@ -82,7 +82,7 @@ const Contact = () => {
                 <div className="w-full md:w-1/2 ">
                   <label
                     htmlFor="name"
-                    className="block text-gray-600 font-semibold text-sm leading-none mb-3 cursor-pointer"
+                    className="block text-light font-semibold text-sm leading-none mb-3 cursor-pointer"
                   >
                     Your Name (required)
                   </label>
@@ -91,7 +91,7 @@ const Contact = () => {
                     name="user_name"
                     type="text"
                     placeholder="Enter Your Name"
-                    className="py-2 px-4 md:px-5 w-full appearance-none border text-input text-xs lg:text-sm font-body placeholder-body min-h-12 transition duration-200 ease-in-out bg-white border-gray-300 focus:outline-none focus:border-heading h-11 md:h-12 text-black rounded"
+                    className="py-2 px-4 md:px-5 w-full appearance-none border text-input text-xs lg:text-sm font-body placeholder-body min-h-12 transition duration-200 ease-in-out bg-[#FFF6DF] border-gray-300 focus:outline-none focus:border-heading h-11 md:h-12 text-black rounded"
                     autoComplete="off"
                     spellCheck="false"
                     aria-invalid="false"
@@ -104,7 +104,7 @@ const Contact = () => {
                 <div className="w-full md:w-1/2 ltr:md:ml-2.5 rtl:md:mr-2.5 ltr:lg:ml-5 rtl:lg:mr-5 mt-2 md:mt-0">
                   <label
                     htmlFor="email"
-                    className="block text-gray-600 font-semibold text-sm leading-none mb-3 cursor-pointer"
+                    className="block font-semibold text-sm leading-none mb-3 cursor-pointer"
                   >
                     Your Email (required)
                   </label>
@@ -113,7 +113,7 @@ const Contact = () => {
                     name="user_email"
                     type="email"
                     placeholder="Enter Your Email"
-                    className="py-2 px-4 md:px-5 w-full appearance-none border text-input text-xs lg:text-sm font-body placeholder-body min-h-12 transition duration-200 ease-in-out bg-white border-gray-300 focus:outline-none focus:border-heading h-11 md:h-12 text-black rounded"
+                    className="py-2 px-4 md:px-5 w-full appearance-none border text-input text-xs lg:text-sm font-body placeholder-body min-h-12 transition duration-200 ease-in-out bg-[#FFF6DF] border-gray-300 focus:outline-none focus:border-heading h-11 md:h-12 text-black rounded"
                     autoComplete="off"
                     spellCheck="false"
                     aria-invalid="false"
@@ -127,7 +127,7 @@ const Contact = () => {
               <div className="relative">
                 <label
                   htmlFor="subject"
-                  className="block text-gray-600 font-semibold text-sm leading-none mb-3 cursor-pointer"
+                  className="block font-semibold text-sm leading-none mb-3 cursor-pointer"
                 >
                   Subject
                 </label>
@@ -136,7 +136,7 @@ const Contact = () => {
                   name="subject"
                   type="text"
                   placeholder="Enter Your Subject"
-                  className="py-2 px-4 md:px-5 w-full appearance-none border text-input text-xs lg:text-sm font-body placeholder-body min-h-12 transition duration-200 ease-in-out bg-white border-gray-300 focus:outline-none focus:border-heading h-11 md:h-12 text-black rounded"
+                  className="py-2 px-4 md:px-5 w-full appearance-none border text-input text-xs lg:text-sm font-body placeholder-body min-h-12 transition duration-200 ease-in-out bg-[#FFF6DF] border-gray-300 focus:outline-none focus:border-heading h-11 md:h-12 text-black rounded"
                   autoComplete="off"
                   spellCheck="false"
                   aria-invalid="false"
@@ -153,7 +153,7 @@ const Contact = () => {
                 <textarea
                   id="message"
                   name="message"
-                  className="px-4 py-3 flex items-center w-full appearance-none transition duration-300 ease-in-out text-heading text-sm focus:ring-0 bg-white border border-gray-300 focus:shadow focus:outline-none focus:border-heading placeholder-body text-black rounded"
+                  className="px-4 py-3 flex items-center w-full appearance-none transition duration-300 ease-in-out text-heading text-sm focus:ring-0 bg-[#FFF6DF] border border-gray-300 focus:shadow focus:outline-none focus:border-heading placeholder-body text-[#482307] rounded"
                   autoComplete="off"
                   spellCheck="false"
                   rows={4}
@@ -167,7 +167,7 @@ const Contact = () => {
               <div className="relative">
                 <button
                   data-variant="flat"
-                  className="text-[13px] md:text-sm leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold font-body text-center justify-center border-0 border-transparent placeholder-white focus-visible:outline-none focus:outline-none bg-black text-white px-5 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 hover:text-white hover:bg-gray-600 hover:shadow-cart h-12 lg:h-14 mt-1 text-sm lg:text-base w-full sm:w-auto rounded"
+                  className="text-[13px] md:text-sm leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold font-body text-center justify-center border-0 border-transparent placeholder-white focus-visible:outline-none focus:outline-none bg-[#E3D1B2] text-[#482307] px-5 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 hover:text-white hover:bg-[#E15549] hover:shadow-cart h-12 lg:h-14 mt-1 text-sm lg:text-base w-full sm:w-auto rounded"
                   type="submit"
                 >
                   Send Message

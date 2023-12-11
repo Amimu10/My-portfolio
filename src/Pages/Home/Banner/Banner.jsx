@@ -1,15 +1,5 @@
-import bannerImg from "../../../assets/images/banner.png";
+
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import {
-  // FaFacebook,
-  FaGithub,
-  FaLinkedin,
-  FaReact,
-  FaTwitterSquare,
-} from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
-import { BiLogoTailwindCss } from "react-icons/bi"; 
-import { IoLogoJavascript } from "react-icons/io";
 import { Link } from "react-router-dom";
 // import Lottie from "lottie-react";
 import Lottie from "lottie-react";
@@ -19,6 +9,8 @@ import linkedin from "../../../../public/linkedin.json";
 import cv from "../../../../public/cv.json";
 import stack from "../../../../public/stack.json";
 import hello from "../../../../public/hello.json";
+import frontend from "../../../../public/frontend.json"; 
+import facebook from "../../../../public/facebook.json"; 
 
 
 const Banner = () => {
@@ -36,9 +28,9 @@ const Banner = () => {
     // Assuming "Resume-Amimul-Ahsan.pdf" is in the same directory as your component
     const pdfPath = "/Resume-Amimul-Ahsan.pdf";
     const link = document.createElement("a");
-    link.href = pdfPath;
+    link.href = pdfPath; 
     link.download = "Resume-Amimul-Ahsan.pdf";
-    link.click();
+    link.click(); 
   };
 
   return (
@@ -58,17 +50,17 @@ const Banner = () => {
            <p className="text-lg">I'am</p>
           </div>{" "}
           <span className="text-designColor font-montserrat font-semibold">
-            Amimul Ahsan
+            Amimul Ahsan 
           </span>
           <br></br>
           <span className="font-bold text-2xl text-lightText font-inter my-2">
-            {text}
+            {text} 
           </span>
           <Cursor
             cursorBlinking="false"
             cursorStyle=" "
             cursorBlinkingSpeed="3000"
-            cursorColor="#212428"
+            cursorColor="#212428" 
           ></Cursor>
           <p className="text-base mt-5 text-justify font-montserrat">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
@@ -77,18 +69,18 @@ const Banner = () => {
             suscipit earum in illo impedit magni.
           </p>
           <div className="flex lg:justify-between flex-col my-8">
-            <div>
+            <div> 
               <button
                 // className="bg-[#E15549] p-2 rounded-md text-lg font-black "
                 onClick={downloadCV} 
               >
             <div className="bg-[#CFA986] text-[#351E11] p-2 rounded-md font-black font-cinzel flex items-center">
             <p className="text-lg">DOWNLOAD CV </p>
-                <p><Lottie className="w-12" animationData={cv} /></p>
-            </div>
+                <p><Lottie className="w-12" animationData={cv} /></p> 
+            </div> 
                
               </button>
-            </div>
+            </div> 
             <div>
               <p className="my-3 mt-8 font-cinzel text-lg">Connect with me in a click</p>
               <div className="flex">
@@ -118,6 +110,12 @@ const Banner = () => {
                     <Lottie className="w-full" animationData={instagram} />
                   </Link>
                 </div>
+                <div className=" w-24 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
+                  {/* <FaGithub className="text-2xl  hover:bg-opacity-40 hover:translate-1 cursor-pointer hover:text-[#F8034F]" /> */}
+                  <Link>
+                    <Lottie className="w-full" animationData={facebook} />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -125,7 +123,7 @@ const Banner = () => {
 
         <div className="flex-1">
           {/* <img className="h-[550px] mx-auto" src={bannerImg} alt="" /> */}
-          <Lottie className="w-[400px]" animationData={stack} />
+          <Lottie className="w-[400px]" animationData={frontend} />
         </div>
       </div>
     </section>

@@ -1,10 +1,12 @@
 [
     {
       "id": 1,
-      "title": "Inventory Management",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXZZ7t9TeEGI9tl81bV_powXhwmwF98k6rfQ&usqp=CAU", 
-      "date": "2023-01-01"
+      "title": "E-commerce-Management",
+      "description": "Multi-Role System: Create a multi-role system with roles such as customer, shop manager, and system admin, each with specific access and permissions.React for building dynamic user interfaces.Tailwind CSS for modern and responsive styling. Stripe js for payment. MongoDb, express & node for server",
+      "image": "https://i.ibb.co/NLPh47m/inventory-management.png", 
+      "date": "2023-01-01",
+      "git_link": "https://github.com/Amimu10/E-commerce-Management-Frontend.git",
+      "demo" : "https://celebrated-cajeta-8cc0fc.netlify.app/"
     },
     {
       "id": 2,

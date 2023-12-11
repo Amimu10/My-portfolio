@@ -1,6 +1,6 @@
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import Lottie from 'lottie-react';
-import animationData from "../../../public/contactAnimation.json";
+import animationData from "../../../public/contactleft.json";
 
 const ContactLeft = () => { 
   return (  

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 mx-auto px-5 gap-3 bg-black opacity-30 p-8 text-[#FFEFC8]"> 
             <div className="lg:text-left text-center"> 
-            <h3>Designed & Developed by Amimul Ahsan</h3>
+            <h3>Designed & Developed by Amimul Ahsan</h3>  
             </div>
             <div className="text-center">  
              Copyright © 2023  
