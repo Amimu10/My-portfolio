@@ -1,7 +1,10 @@
+import Lottie from "lottie-react";
 import { useEffect, useState } from "react";
 // import { FaGithub, FaGlobe } from "react-icons/fa";
 import { FaGithub, FaGlobe } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import frontend from "../../../public/frontend.json"; 
+
 const Projects = () => {
   const [projects, setProjects] = useState([]);
 
@@ -20,6 +23,10 @@ const Projects = () => {
       <h3 className=" text-2xl md:text-3xl my-3">Discover My Recent <span className="text-[#E15549]">Projects</span></h3>
       <p className="md:text-xl text-base">Explore a Snapshot of My Latest Front-End Developments - Check Them Out!</p>
     </div>
+    <div className=" flex justify-center"> 
+          {/* <img className="h-[550px] mx-auto" src={bannerImg} alt="" /> */}
+          <Lottie className="w-[250px]" animationData={frontend} /> 
+        </div>
      <div className="grid gtid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto p-5">
       {projects.map((item) => (
         <div

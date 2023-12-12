@@ -43,7 +43,8 @@ const Navbar = () => {
         ></label>
         <ul className="menu p-4 lg:mt-0 mt-12 h-100vh text-[#E15549] hover:text-pink-700 lg:bg-inherit md:bg-[#F5EACC] font-inter text-xl">
           <li className="">
-            <NavLink to="/"> 
+            <NavLink to="/"
+            > 
               <FaHome></FaHome> 
             </NavLink>
           </li>

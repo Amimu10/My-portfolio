@@ -1,4 +1,5 @@
 import { FaFacebookF, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -10,10 +11,22 @@ const Footer = () => {
              Copyright © 2023  
             </div>
             <div className="flex gap-5 text-xl justify-center">
-                <FaGithub></FaGithub>
-                <FaTwitter></FaTwitter>
-                <FaLinkedin></FaLinkedin>
-                <FaFacebookF></FaFacebookF>
+            <Link to="https://www.linkedin.com/in/amimul-ahsan-842b35262/" target="_blank"
+                  rel="noopener noreferrer"> 
+               <FaLinkedin></FaLinkedin> 
+               </Link>
+               <Link to="https://github.com/Amimu10" target="_blank"
+                  rel="noopener noreferrer"> 
+               <FaGithub></FaGithub> 
+               </Link>  
+               <Link to="https://twitter.com/AmimulA11782956" target="_blank"
+                  rel="noopener noreferrer">  
+               <FaTwitter></FaTwitter>  
+               </Link>
+               <Link to="https://www.facebook.com/mushkil.ahsan.ador/"    target="_blank"
+                  rel="noopener noreferrer">
+               <FaFacebookF></FaFacebookF>
+               </Link>
             </div>
         </div>
     );

@@ -11,7 +11,7 @@ import cv from "../../../../public/cv.json";
 import hello from "../../../../public/hello.json";
 import frontend from "../../../../public/frontend.json"; 
 import facebook from "../../../../public/facebook.json"; 
-// import { GoCodeReview } from "react-icons/go";
+import bannerImg from "../../../assets/images/banner.png";
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -93,25 +93,29 @@ const Banner = () => {
                 </div> */}
                 <div className=" w-24 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
                   {/* <FaGithub className="text-2xl  hover:bg-opacity-40 hover:translate-1 cursor-pointer hover:text-[#F8034F]" /> */}
-                  <Link>
+                  <Link to="https://github.com/Amimu10"    target="_blank"
+                  rel="noopener noreferrer"> 
                     <Lottie className="w-full" animationData={github} />
                   </Link>
                 </div>
                 <div className=" w-24 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
                   {/* <FaGithub className="text-2xl  hover:bg-opacity-40 hover:translate-1 cursor-pointer hover:text-[#F8034F]" /> */}
-                  <Link>
-                    <Lottie className="w-full" animationData={linkedin} />
+                  <Link to="https://www.linkedin.com/in/amimul-ahsan-842b35262/" target="_blank"
+                  rel="noopener noreferrer"> 
+                    <Lottie className="w-full" animationData={linkedin} /> 
                   </Link>
-                </div>
+                </div> 
                 <div className=" w-24 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
                   {/* <FaGithub className="text-2xl  hover:bg-opacity-40 hover:translate-1 cursor-pointer hover:text-[#F8034F]" /> */}
-                  <Link>
+                  <Link to="https://www.instagram.com/adorkhan37" target="_blank"
+                  rel="noopener noreferrer">
                     <Lottie className="w-full" animationData={instagram} />
                   </Link>
                 </div>
                 <div className=" w-24 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
                   {/* <FaGithub className="text-2xl  hover:bg-opacity-40 hover:translate-1 cursor-pointer hover:text-[#F8034F]" /> */}
-                  <Link>
+                  <Link to="https://www.facebook.com/mushkil.ahsan.ador/"    target="_blank"
+                  rel="noopener noreferrer">
                     <Lottie className="w-full" animationData={facebook} />
                   </Link>
                 </div>
@@ -121,8 +125,8 @@ const Banner = () => {
         </div>
 
         <div className="flex-1">
-          {/* <img className="h-[550px] mx-auto" src={bannerImg} alt="" /> */}
-          <Lottie className="w-[400px]" animationData={frontend} />
+          <img className="h-[550px] mx-auto" src={bannerImg} alt="" />
+          {/* <Lottie className="w-[400px]" animationData={frontend} /> */}
         </div>
       </div>
     </section>
