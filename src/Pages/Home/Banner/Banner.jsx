@@ -7,11 +7,11 @@ import github from "../../../../public/github.json";
 import instagram from "../../../../public/instagram.json";
 import linkedin from "../../../../public/linkedin.json";
 import cv from "../../../../public/cv.json";
-import stack from "../../../../public/stack.json";
+// import stack from "../../../../public/stack.json";
 import hello from "../../../../public/hello.json";
 import frontend from "../../../../public/frontend.json"; 
 import facebook from "../../../../public/facebook.json"; 
-
+// import { GoCodeReview } from "react-icons/go";
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -38,22 +38,22 @@ const Banner = () => {
       {/* <div className="absolute h-fit inset-0 w-full" >
    <Lottie animationData={animationData} /> 
    </div> */}
-      <div className="text-lightText flex md:flex-row flex-col justify-between gap-10 ">
+      <div className="text-lightText flex md:flex-row flex-col justify-between">
         <div className="lg:text-5xl md:4xl text-3xl flex-1 w-full h-full">
           <div className=" flex justify-start">
-          <Lottie className="w-52" animationData={hello} />
+          <Lottie className="w-52 -mt-7" animationData={hello} /> 
           </div>
-          <h2 className="text-lg font-normal font-montserrat">
-            Wellcome to My world
+          <h2 className="text-lg text-[#F8EDD2] font-normal font-montserrat -mt-6">
+            Wellcome to My world 
           </h2>
           <div className="flex items-center gap-2">
-           <p className="text-lg">I'am</p>
+           <p className="text-2xl text-[#E15549]">I'am,</p>
           </div>{" "}
-          <span className="text-designColor font-montserrat font-semibold">
+          <span className="text-[#FFF9E9] font-montserrat font-semibold">
             Amimul Ahsan 
           </span>
           <br></br>
-          <span className="font-bold text-2xl text-lightText font-inter my-2">
+          <span className="font-bold md:text-2xl text-xl text-lightText font-inter my-2">
             {text} 
           </span>
           <Cursor
@@ -63,10 +63,9 @@ const Banner = () => {
             cursorColor="#212428" 
           ></Cursor>
           <p className="text-base mt-5 text-justify font-montserrat">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            repellat nostrum id et voluptatum qui . Lorem ipsum, dolor sit amet
-            consectetur adipisicing elit. Sint beatae ad, aspernatur eius est
-            suscipit earum in illo impedit magni.
+           I'm also venturing into backend territory. Currently, I'm diving
+            into Node.js, Express, and MongoDB. The goal? To become an expert
+            full-stack developer.
           </p>
           <div className="flex lg:justify-between flex-col my-8">
             <div> 
@@ -82,7 +81,7 @@ const Banner = () => {
               </button>
             </div> 
             <div>
-              <p className="my-3 mt-8 font-cinzel text-lg">Connect with me in a click</p>
+              <p className="my-3 mt-8 text-xl text-[#F8EDD2] font-montserrat text-uppercase">Connect with me in a click</p>
               <div className="flex">
                 {/* <div className="bg-[#FFEFC7] text-[#482307] w-11 h-11 inline-flex items-center justify-center shadow-shadow rounded-full transition-all">
                   <Link

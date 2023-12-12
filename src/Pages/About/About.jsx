@@ -1,10 +1,4 @@
-// import {
-//   // FaFacebook,
-//   // FaGithub,
-//   // FaLinkedin,
-//   // FaTwitterSquare,
-// } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 import Lottie from "lottie-react";
 import animationData from "../../../public/stack.json";
 import react from "../../../public/react.json"; 
@@ -26,41 +20,38 @@ const About = () => {
           <h2 className="text-3xl my-5">LET ME INTRODUCE MYSELF</h2> 
        <div className="text-justify">
        <p>
-            Coding is my escape into a world where life is not just beautiful
+        <span className="text-2xl">🚀 </span>Coding is my escape into a world where life is not just beautiful
             but also exciting and full of meaning. Everything else? Well, that's
             a bit of a puzzle for me.
           </p>
           <p>
-            I'm a hard worker, fueled by passion for coding, and armed with
-            determination.
+          <span className="text-2xl">💻 </span> My most cherished passion is coding, and I believe it provides the utmost assistance in navigating through life. I am a diligent worker, driven by a fervent love for coding and equipped with unwavering determination.
           </p>
           <p>
-            For me, coding is not just about money; it's a journey, and I'm
+          <span className="text-2xl"> 🌐 </span> For me, coding is not just about money; it's a journey, and I'm
             thrilled to be part of it.
           </p>
           <p>
-            I fell head over heels for programming, and my heart beats for
-            coding with React.js 🤷‍♂️
+           <span className="text-2xl">❤️ </span> I fell head over heels for programming, and my heart beats for
+            coding with React.js 
           </p>
           <p>
-            I adore working with JavaScript APIs, and crafting JSON data/APIs is
+          <span className="text-2xl"> 🛠️ </span> I adore working with JavaScript APIs, and crafting JSON data/APIs is
             my jam.
           </p>
           <p>
-            CSS is pure awesomeness, and I love playing around with Tailwind.
+           <span className="text-2xl">🎨 </span> CSS is pure awesomeness, and I love playing around with Tailwind.
           </p>
           <p>
-            Designing a frontend or a landing page with React is my absolute
+         <span className="text-2xl"> 🤷‍♂️ </span> Designing a frontend or a landing page with React is my absolute
             favorite; it brings me immense joy.
           </p>
           <p>
-            JavaScript holds a special place in my heart. I strive to be the
+           <span className="text-2xl">🤖 </span> JavaScript holds a special place in my heart. I strive to be the
             best in this language, always eager to learn something new.
           </p>
           <p>
-            I'm also venturing into backend territory. Currently, I'm diving
-            into Node.js, Express, and MongoDB. The goal? To become an expert
-            full-stack developer.
+            
           </p>
        </div>
         </div>

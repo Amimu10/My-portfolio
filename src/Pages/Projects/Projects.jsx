@@ -15,7 +15,12 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="grid gtid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto p-5">
+   <div>
+    <div className="text-center">
+      <h3 className=" text-2xl md:text-3xl my-3">Discover My Recent <span className="text-[#E15549]">Projects</span></h3>
+      <p className="md:text-xl text-base">Explore a Snapshot of My Latest Front-End Developments - Check Them Out!</p>
+    </div>
+     <div className="grid gtid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto p-5">
       {projects.map((item) => (
         <div
           key={item.id}
@@ -58,6 +63,7 @@ const Projects = () => {
         </div>
       ))}
     </div>
+   </div>
   );
 };
 

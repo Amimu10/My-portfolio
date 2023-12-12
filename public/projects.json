@@ -10,10 +10,12 @@
     },
     {
       "id": 2,
-      "title": "E-commerce Website",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
-      "image": "path/to/projectTwoImage.jpg",
-      "date": "2023-02-15"
+      "title": "Softnee-Electronic-Brandshop",
+      "description": "React for building dynamic user interfaces.Tailwind CSS for modern and responsive styling MongoDB for streamlined data storage.Express and Node.js for a robust, scalable server.Firebase for secure user authentication User can add a product & customer can cart them. use category based data & display them",
+      "image": "https://i.ibb.co/Lz950FR/elitelectro.png",
+      "date": "2023-02-15",
+      "git_link": "https://github.com/Amimu10/Softnee-Electronic-Brandshop-Frontend.git",
+      "demo" : "https://elite-electro.web.app/"
     },
     {
       "id": 3,
