@@ -1,17 +1,17 @@
 
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
-// import Lottie from "lottie-react";
 import Lottie from "lottie-react";
 import github from "../../../../public/github.json";
 import instagram from "../../../../public/instagram.json";
 import linkedin from "../../../../public/linkedin.json";
 import cv from "../../../../public/cv.json";
-// import stack from "../../../../public/stack.json";
 import hello from "../../../../public/hello.json";
-import frontend from "../../../../public/frontend.json"; 
 import facebook from "../../../../public/facebook.json"; 
 import bannerImg from "../../../assets/images/banner.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -34,10 +34,7 @@ const Banner = () => {
   };
 
   return (
-    <section className="w-full relative  h-100vh  flex min-h-screen px-5">
-      {/* <div className="absolute h-fit inset-0 w-full" >
-   <Lottie animationData={animationData} /> 
-   </div> */}
+    <section data-aos="fade-down" className="w-full relative  h-100vh  flex min-h-screen px-5">
       <div className="text-lightText flex md:flex-row flex-col justify-between">
         <div className="lg:text-5xl md:4xl text-3xl flex-1 w-full h-full">
           <div className=" flex justify-start">

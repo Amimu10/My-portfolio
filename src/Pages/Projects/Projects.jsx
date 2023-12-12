@@ -4,6 +4,9 @@ import { useEffect, useState } from "react";
 import { FaGithub, FaGlobe } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import frontend from "../../../public/frontend.json"; 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -18,7 +21,7 @@ const Projects = () => {
   }, []);
 
   return (
-   <div>
+   <div data-aos="fade-down-left" >
     <div className="text-center">
       <h3 className=" text-2xl md:text-3xl my-3">Discover My Recent <span className="text-[#E15549]">Projects</span></h3>
       <p className="md:text-xl text-base">Explore a Snapshot of My Latest Front-End Developments - Check Them Out!</p>

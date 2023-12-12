@@ -4,10 +4,9 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import ContactLeft from './ContactLeft';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
 import toast from 'react-hot-toast';
-// ..
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 AOS.init();
 const Contact = () => {
   const form = useRef();

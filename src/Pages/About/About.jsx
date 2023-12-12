@@ -7,11 +7,13 @@ import node from "../../../public/nodejs.json";
 import firebase from "../../../public/firebase.json"; 
 import mongodb from "../../../public/mongodb.json"; 
 import tailwind from "../../assets/images/tailwind.png";   
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const About = () => {
   return (
-    <section className="w-full h-auto pb-16 min-h-screen ">
+    <section data-aos="zoom-in-right" className="w-full h-auto pb-16 min-h-screen ">
       <div className="grid lg:grid-cols-12 g:grid-rows-1 grid-cols-1 px-4 gap-2 items-center">
         <div className="col-span-6 lg:order-1 md:order-2">
           <Lottie className="w-full" animationData={animationData} />
