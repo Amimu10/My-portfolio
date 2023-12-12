@@ -2,6 +2,8 @@
 
 Welcome to the repository for my personal portfolio website! This project is a showcase of my frontend development skills and projects.
 
+## view live [My Portfolio](https://amimulahsan-portfolio.vercel.app/) 
+
 ## Overview
 
 My portfolio website is designed to provide an immersive and responsive experience for visitors. It comprises several sections, including a beautiful homepage, an about page detailing my skills and background, a contact section with an EmailJS-powered form, and a showcase of my frontend projects.
