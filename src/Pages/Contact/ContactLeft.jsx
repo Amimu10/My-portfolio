@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+
 import Lottie from "lottie-react";
 import animationData from "../../../public/contactleft.json";
 import { Link } from "react-router-dom";
@@ -11,18 +11,18 @@ const ContactLeft = () => {
   return (
     <div className="">
       <Lottie animationData={animationData} />
-      <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-[#D9B28D] font-cinzel">
-          <span className="icon">👨‍💻</span> Amimul Ahsan
+      <div className="flex flex-col w-full gap-4">
+        <h3 className="md:text-3xl text-xl font-bold text-[#D9B28D] font-cinzel">
+          <span className="icon">👨‍💻</span> Amimul Ahsan 
         </h3>
-        <p className="text-[22px] font-montserrat font-normal text-[#BC3433]">
+        <p className="md:text-[22px] text-base font-montserrat font-normal text-[#D9B28D]">
           <span className="icon">💻</span> Frontend Developer
         </p>
-        <p className="text-base text-gray-400 tracking-wide text-justify">
+        <p className="text-base text-gray-400 tracking-wide text-justify">  
           <span className="icon">✨</span> Coding for me is beyond earning; it's
           a pursuit of peace and joy. Let's collaborate and turn lines of code
           into a canvas of endless possibilities. Contact me, and let's create
-          something extraordinary together.
+          something extraordinary together. 
         </p>
         <p className="flex items-center gap-2 text-lg text-[#167EBB]">
           <span className="icon"><IoLocationOutline /></span> Kurigram, Rangpur, Bangladesh

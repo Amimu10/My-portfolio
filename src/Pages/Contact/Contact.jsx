@@ -67,13 +67,13 @@ const Contact = () => {
 
   return (
     <div>
-      <div data-aos="zoom-out-right" className="grid lg:grid-cols-12 lg:grid-rows-1 grid-cols-1 px-5 gap-5">       
+      <div data-aos="zoom-out-right" className="grid lg:grid-cols-12 lg:grid-rows-1 grid-cols-1 px-5 md:gap-5">       
        <div className="col-span-4">  
        <ContactLeft></ContactLeft> 
        </div>
         <div className=" col-span-8">
           <div className="flex pb-7 md:pb-9 mt-7 md:-mt-1.5">
-            <h4 className="text-2xl 2xl:text-3xl font-bold text-heading">Get in touch</h4>
+            <h4 className="text-2xl 2xl:text-3xl font-bold text-heading">GET IN <span className="text-[#E15549]">TOUCH</span></h4>
           </div>
           <form ref={form} onSubmit={sendEmail} className="w-full mx-auto flex flex-col justify-center" noValidate>
             <div className="flex flex-col space-y-5">

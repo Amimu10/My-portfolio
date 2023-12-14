@@ -34,7 +34,7 @@ const Banner = () => {
   };
 
   return (
-    <section data-aos="fade-down" className="w-full relative  h-100vh  flex min-h-screen px-5">
+    <section data-aos="fade-down" className="w-full relative  h-100vh  flex min-h-screen px-5"> 
       <div className="text-lightText flex md:flex-row flex-col justify-between">
         <div className="lg:text-5xl md:4xl text-3xl flex-1 w-full h-full">
           <div className=" flex justify-start">
@@ -80,37 +80,26 @@ const Banner = () => {
             <div>
               <p className="my-3 mt-8 text-xl text-[#F8EDD2] font-montserrat text-uppercase">Connect with me in a click</p>
               <div className="flex">
-                {/* <div className="bg-[#FFEFC7] text-[#482307] w-11 h-11 inline-flex items-center justify-center shadow-shadow rounded-full transition-all">
-                  <Link
-                    to="https://www.facebook.com/mushkil.ahsan.ador"
-                    target="_blank"
-                  >
-                    <FaFacebook className="text-2xl  hover:bg-opacity-40 hover:translate-1 cursor-pointer hover:text-[#F8034F]" />
-                  </Link>
-                </div> */}
-                <div className=" w-24 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
-                  {/* <FaGithub className="text-2xl  hover:bg-opacity-40 hover:translate-1 cursor-pointer hover:text-[#F8034F]" /> */}
+                <div className="md:w-24 w-16 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
                   <Link to="https://github.com/Amimu10"    target="_blank"
                   rel="noopener noreferrer"> 
-                    <Lottie className="w-full" animationData={github} />
+                    <Lottie className="w-full" animationData={github} /> 
                   </Link>
                 </div>
-                <div className=" w-24 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
-                  {/* <FaGithub className="text-2xl  hover:bg-opacity-40 hover:translate-1 cursor-pointer hover:text-[#F8034F]" /> */}
+                <div className=" md:w-24 w-16 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
                   <Link to="https://www.linkedin.com/in/amimul-ahsan-842b35262/" target="_blank"
                   rel="noopener noreferrer"> 
                     <Lottie className="w-full" animationData={linkedin} /> 
                   </Link>
                 </div> 
-                <div className=" w-24 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
-                  {/* <FaGithub className="text-2xl  hover:bg-opacity-40 hover:translate-1 cursor-pointer hover:text-[#F8034F]" /> */}
+                <div className=" md:w-24 w-16 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
                   <Link to="https://www.instagram.com/adorkhan37" target="_blank"
                   rel="noopener noreferrer">
                     <Lottie className="w-full" animationData={instagram} />
                   </Link>
                 </div>
-                <div className=" w-24 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
-                  {/* <FaGithub className="text-2xl  hover:bg-opacity-40 hover:translate-1 cursor-pointer hover:text-[#F8034F]" /> */}
+                <div className=" md:w-24 w-16 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
+        
                   <Link to="https://www.facebook.com/mushkil.ahsan.ador/"    target="_blank"
                   rel="noopener noreferrer">
                     <Lottie className="w-full" animationData={facebook} />

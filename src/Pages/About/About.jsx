@@ -19,7 +19,7 @@ const About = () => {
           <Lottie className="w-full" animationData={animationData} />
         </div>
         <div className="text-base font-inter flex flex-col gap-6 col-span-6">
-          <h2 className="text-3xl my-5">LET ME INTRODUCE MYSELF</h2> 
+          <h2 className="md:text-3xl text-xl my-5">LET ME INTRODUCE <span className="text-[#E15549]">MYSELF</span></h2> 
        <div className="text-justify">
        <p>
         <span className="text-2xl">🚀 </span>Coding is my escape into a world where life is not just beautiful
@@ -60,31 +60,31 @@ const About = () => {
       </div>
       <div>
            <div className="flex-col items-center gap-5 mt-14">
-              <p className="my-3 font-cinzel text-lg text-center ">COMFORT WITH</p>
+              <p className="my-3 font-cinzel text-lg text-center "><span className="text-[#E15549]">COMFORT</span> WITH</p>
               <div className="flex flex-wrap justify-center gap-8 rounded-full">
-                <div className=" w-24 h-12 inline-flex items-center justify-center shadow-shadow rounded-md transition-all"> 
+                <div className="md:w-24 h-12 md:h-28 w-16 inline-flex items-center justify-center shadow-shadow rounded-md transition-all"> 
                 <img className="mx-auto" src={tailwind} alt="" />
                 </div> 
-                <div className=" w-24 h-12 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
+                <div className=" md:w-24 h-12  w-16 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
                 <Lottie className="w-20" animationData={javascript} />
                 </div> 
-                <div className=" w-20 h-12 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
-                <Lottie className="w-20" animationData={react} />
+                <div className="md:w-24 h-12 md:h-28 w-16 inline-flex items-center justify-center shadow-shadow rounded-md transition-all">
+                <Lottie className="w-20" animationData={react} /> 
                 </div>
               
               </div>
             </div>
             <div className="mt-12 text-center">
-            <p className=" font-cinzel text-lg">Familiar With</p>
+            <p className=" my-3 font-cinzel text-lg text-center"><span className="text-[#E15549]">FAMILIAR</span> WITH</p>
             <div className="flex flex-wrap justify-center gap-8">
             <div className=" shadow-shadow rounded-md transition-all">
-                <Lottie className=" h-28 " animationData={node} /> 
+                <Lottie className="md:h-28  h-20" animationData={node} /> 
                 </div>
              <div className=" shadow-shadow rounded-md transition-all">
-                <Lottie className=" h-28" animationData={mongodb} /> 
+                <Lottie className="md:h-28 h-20" animationData={mongodb} /> 
               </div>
               <div className=" shadow-shadow rounded-md transition-all">
-                <Lottie className=" h-28" animationData={firebase} /> 
+                <Lottie className="md:h-28 h-20" animationData={firebase} /> 
                 </div>
             </div>
             </div>
