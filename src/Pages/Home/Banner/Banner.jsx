@@ -111,7 +111,7 @@ const Banner = () => {
         </div>
 
         <div className="flex-1">
-          <img className="h-[550px] mx-auto" src={bannerImg} alt="" />
+          {/* <img className="h-[550px] mx-auto" src={bannerImg} alt="" /> */}
           {/* <Lottie className="w-[400px]" animationData={frontend} /> */}
         </div>
       </div>
